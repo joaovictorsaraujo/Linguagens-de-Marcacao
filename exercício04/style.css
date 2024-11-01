@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Exa:wght@100..900&display=swap');
+
+.nome{
+    color: rgb(63, 118, 219);
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#avatar{
+    text-align: center;
+}
+
+.info{
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    background-color: rgb(193, 212, 248);
+}
+
+h1{
+    text-align: center;
+    font-size: 120%;
+    font-weight: 600;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgb(193, 212, 248);
+}
+
+fieldset{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+.minhadiv{
+    border-style: dotted;
+    border-width: px;
+}
