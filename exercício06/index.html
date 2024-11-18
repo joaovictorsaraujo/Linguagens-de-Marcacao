@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cadastro">
+        <fieldset>
+            <h1>Cadastrar Usuário</h1>
+            <form action="index.html" method="post">
+                <div class="Dados Pessoais">
+                    <p><span class="num">1</span> Dados Pessoais</p>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="psw">Senha:</label>
+                    <input type="password" id="psw" name="psw" pattern=".{8,}">
+                    <label for="psw">Confirmar Senha:</label>
+                    <input type="password" id="psw" name="psw" pattern=".{8,}">
+                    <label for="idd">Idade:</label><br>
+                    <div>
+                        <input type="radio" id="above17" name="idd" value="above17">
+                        <label for="above17">Acima de 17</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="below17" name="idd" value="below17">
+                        <label for="below17">Abaixo ou igual a 17</label>
+                    </div>
+                </div>
+                <div>
+                    <p><span class="num">2</span> Perfil</p>
+                    <div>
+                        <label for="desc">Descrição:</label>
+                    </div>
+                    <div>
+                        <textarea id="desc" name="desc" rows="2" cols="20"></textarea>
+                    </div>
+                    <div>
+                        <label for="job">Perfil Trabalho:</label>
+                    </div>
+                    <select name="job" id="job">
+                        <option value="Front-End">Front-End Developer</option>
+                        <option value="Back-End">Back-End Developer</option>
+                    </select>
+                    <label for="interesses">Interesses:</label>
+                    <div>
+                        <input type="checkbox" id="op1" name="op1" value="Programador">
+                        <label for="op1">Programador</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="op2" name="op2" value="Design">
+                        <label for="op2">Design</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="op3" name="op3" value="Analista">
+                        <label for="op3">Analista</label>
+                    </div>
+                </div>
+            </form>
+            <button type="submit">Enviar Dados</button>
+        </fieldset>
+        
+    </div>
+</body>
+
+</html>

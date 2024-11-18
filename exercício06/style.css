@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:wght@200..1000&family=Vina+Sans&display=swap');
+
+.cadastro{
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+    background-color: rgb(227, 233, 238);
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input, textarea{
+    background-color: rgb(220, 224, 230);
+    border-style: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    height: auto;
+    outline: 0;
+    width: 100%;
+}
+
+select{
+    background-color: rgb(220, 224, 230);
+    border-style: none;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: auto;
+    outline: 0;
+    width: 100%;
+    color: rgb(51, 51, 51);
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    padding: 0;
+    margin: 5px;
+}
+
+.num{
+    color: aliceblue;
+    border-radius: 100%;
+    padding-top: 3px;
+    padding-bottom: 2.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #5ad88a;
+}
+
+button{
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    background-color: #5ad88a;
+    color: aliceblue;
+    width: 100%;
+}
