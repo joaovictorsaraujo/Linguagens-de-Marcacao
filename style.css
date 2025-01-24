@@ -1,0 +1,14 @@
+.tabela{
+    background-color: #929292;
+    padding: 30px;
+}
+
+table{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px, solid, black;
+}
+
+td, th{
+    text-align: center;
+    padding: 10px;
+}
